@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import "./Works.css";
 import Upwork from "../../img/Upwork.png";
 import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
+import linked from "../../img/linked.png";
+import git from "../../img/git.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -53,20 +53,20 @@ const Works = () => {
           transition={{ duration: 3.5, type: "spring" }}
           className="w-mainCircle"
         >
-          <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+          <div className="">
+            <a className="w-secCircle" href="https://www.upwork.com/freelancers/~0120f6c0ea94789f8a"><img src={Upwork} alt="" /></a>
           </div>
-          <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+          <div className="">
+            <a className="w-secCircle" href="https://www.fiverr.com/mkiachannel?up_rollout=true"><img src={Fiverr} alt="" /></a>
           </div>
-          <div className="w-secCircle">
-            <img src={Amazon} alt="" />
-          </div>{" "}
-          <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+          <div className="">
+        <a href="https://www.linkedin.com/in/khalid-irfani-145321205/" className="w-secCircle"> <img src={linked} alt="" height={50}/></a>   
           </div>
-          <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+          <div >
+            <a href="https://github.com/KhalidIrfani" className="w-secCircle"><img src={git} alt="" height={40}/></a>
+          </div>
+          <div >
+            <a href="https://www.facebook.com/irfani481" className="w-secCircle"><img src={Facebook} alt="" /></a>
           </div>
         </motion.div>
         {/* background Circles */}
