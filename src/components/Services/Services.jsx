@@ -47,8 +47,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma to react js, make responsive design "}
+            heading={"Front End Developer"}
+            detail={"Figma to react js, using TailwindCss , Bootstrap, MaterialUI make responsive design "}
           />
         </motion.div>
         {/* second card */}
@@ -59,8 +59,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Mern Stack Developer"}
+            detail={"Html, Css, JavaScript, React, TypeScript, Nodejs, Express, MongoDb"}
           />
         </motion.div>
         {/* 3rd */}
@@ -71,9 +71,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Next Js Developer"}
             detail={
-              "Make a responsive website using UI/UX design "
+              "Make a responsive website using Next js, React js TypeScript and JavaScript using Different Css Framwoks MaterialUi  "
             }
             color="rgba(252, 166, 31, 0.45)"
           />

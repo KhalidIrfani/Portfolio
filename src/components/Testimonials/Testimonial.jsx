@@ -15,22 +15,22 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Collaborating with M.Khalid Irfani has been a delight. His expertise in React, Material-UI, and Tailwind CSS shines through the project. The dynamic React components, polished and elevated our project's quality.Khalid's seamless integration of these technologies showcases his dedication and skill",
     },
     {
       img: profilePic2,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "An embodiment of full-stack excellence, this project harmoniously merges captivating front-end design with robust back-end functionality. Crafted with React, Material-UI, and Tailwind CSS, it delivers a seamless user experience while efficiently managing data and interactions",
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Experience innovation with our cutting-edge e-commerce platform. Seamlessly designed for intuitive navigation and powered by secure payment gateways, our site offers a vast product range. With a user-friendly interface, personalized recommendations, and efficient order processing, shopping becomes a delightful journey.",
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "The front-end work done by M.Khalid Irfani is nothing short of awe-inspiring. Their expertise in harnessing the power of React, Material-UI, and Tailwind CSS is evident in every pixel. Navigating our project is a visual treat, showcasing their ability to craft stunning interfaces and engaging layouts. Khalid's contribution has truly elevated our user experience",
     },
   ];
 
@@ -40,8 +40,8 @@ const Testimonial = () => {
         <span>Clients always get </span>
         <span>Exceptional Work </span>
         <span>from me...</span>
-      <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
-      <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
+        <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
+        <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
       </div>
       <Swiper
