@@ -40,7 +40,7 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/KReact"><img src={Github} alt="" /></a>
+          <a href="https://github.com/KhalidIrfani"><img src={Github} alt="" /></a>
           <a href="https://www.linkedin.com/in/khalid-irfani-145321205/"><img src={LinkedIn} alt="" /></a>
           <a href="https://instagram.com/fani_481?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><img src={Instagram} alt="" /></a>
         
